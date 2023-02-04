@@ -124,4 +124,30 @@ export async function appRoutes(app: FastifyInstance) {
     })
 
   })
-}
+
+  app.get('/summary', async () => {
+    const summary = await prisma.$queryRaw`
+      SELECT 
+        D.id, 
+        D.date,
+        (
+          SELECT 
+            cast(COUNT(*) AS float)
+          FROM day_habits DH
+          WHERE DH.day_id = D.id
+        ) AS completed,
+        (
+          SELECT
+            cast(COUNT(*) AS float)
+          FROM habit_week_days HWD
+          JOIN habits H 
+            ON H.id = HWD.habit_id
+          WHERE 
+            HWD.week_day = strftime('%w', D.date/1000.0, 'unixepoch', 'localtime')
+            AND H.created_at <= D.date
+        ) AS amount
+      FROM days D
+    `
+    return summary
+  })
+} 
