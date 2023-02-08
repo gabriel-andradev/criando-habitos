@@ -53,7 +53,7 @@ export function SummaryTable() {
                 key={date.toString()}
                 date={date}
                 amount={dayInSummmary?.amount}
-                completed={dayInSummmary?.completed}
+                defaultCompleted={dayInSummmary?.completed}
               />
             )
           )
