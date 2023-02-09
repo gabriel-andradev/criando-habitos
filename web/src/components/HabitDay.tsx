@@ -12,7 +12,7 @@ interface HabitDayProps {
 }
 
 export function HabitDay({ defaultCompleted = 0, amount = 0, date }: HabitDayProps) {
-  const [completed, setCompleted] = useState(defaultCompleted || 0)
+  const [completed, setCompleted] = useState(defaultCompleted)
 
   const completedPercentage = amount > 0 ? Math.round((completed / amount) * 100) : 0
 
