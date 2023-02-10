@@ -23,23 +23,21 @@ Software para gerenciar e melhorar seus hábitos diários
 </p>
 
 ## 🕹️ Como Utilizar
-Para rodar esta aplicação será necessário uma IDE ou editor de código-fonte capaz de rodar o NPM
+Para rodar esta aplicação, você precisará de uma IDE ou editor de código-fonte capaz de executar o NPM. A aplicação "server" integra com a "web", fornecendo o back-end. Para executar a aplicação, siga os seguintes passos:
 
-A aplicação "server" integra com a "web", realizando o Back-end. Caso queira rodar a aplicação basta utilizar os seguintes comandos:
-
-Primeiro vamos rodar a aplicação do Back-end, para que possamos rodar a aplicação do Front-end com completamente.
+Execute o back-end da aplicação para que possamos executar o front-end completamente.
 #### Server
-Rodamos os comandos com o [npm](https://www.npmjs.com) para instalar as dependências e o banco de dados local.
+Execute os seguintes comandos com o [npm](https://www.npmjs.com) para instalar as dependências e o banco de dados local:
 ```
 $ npm install
 $ npx prisma migrate dev
 ```
-Depois rodamos o comando para iniciar o servidor
+Em seguida, execute o comando abaixo para iniciar o servidor:
 ```
 $ npm run dev
 ```
 #### Web
-Rodando a aplicação web, primeiro iniciar o servidor e depois a "web"
+Para executar a aplicação web, primeiro inicie o servidor e, em seguida, execute a aplicação "web".
 ```
 $ npm install
 $ npm run dev
@@ -53,17 +51,16 @@ $ npm run dev
 - PATCH = Editar uma informação específica
 - DELETE = Deletar/Apagar
 
-Obs.: o nome das rotas são sempre no plural.
+Obs.: O nome das rotas sempre está no plural.
 
 ### HTTP Codes
 
-Tipo de resposta que do Back-end.
+Os códigos HTTP indicam o tipo de resposta do back-end.
 
 Status 200 - Resposta genérica de sucesso (OK)
+Status 201 - Algo foi criado (CREATED)
 
-Status 201 - _Algo_ foi criado (CREATED)
-
-Principais: 
+Principais:
 
 - Começa com 200 -> Sucesso
 - Começa com 300 -> Redirecionamento
