@@ -13,7 +13,6 @@ const availableWeekDays = [
   'Sábado',
 ]
 
-
 export function NewHabitForm() {
   const [title, setTitle] = useState('')
   const [weekDays, setWeekDays] = useState<number[]>([])
@@ -96,8 +95,6 @@ export function NewHabitForm() {
             </Checkbox.Root>
           )
         })}
-
-
       </div>
 
       <button

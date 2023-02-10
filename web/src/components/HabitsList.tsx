@@ -36,13 +36,7 @@ export default function HabitsList({ date, onCompletedChanged }: HabitsListProps
 
     const isHabitAlreadyCompleted = habitsInfo!.completedHabits.includes(habitId);
 
-    let completedHabits: string[] = []
-
-    if (isHabitAlreadyCompleted) {
-      completedHabits = habitsInfo!.completedHabits.filter(id => id !== habitId);
-    } else {
-      completedHabits = [...habitsInfo!.completedHabits, habitId];
-    }
+    let completedHabits = isHabitAlreadyCompleted ? habitsInfo!.completedHabits.filter(id => id !== habitId) : [...habitsInfo!.completedHabits, habitId];
 
     setHabitsInfo({
       possibleHabits: habitsInfo!.possibleHabits,
