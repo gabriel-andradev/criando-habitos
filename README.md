@@ -1,5 +1,5 @@
 # NLW Setup Trilha Ignite - criando-habitos
-Software para gerenciar e melhorar seus hábitos diários
+Software para gerenciar e melhorar hábitos diários
 
 ## ✔️ Linguagens e tecnologias utilizadas
 
