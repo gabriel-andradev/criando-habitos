@@ -114,17 +114,14 @@ export async function appRoutes(app: FastifyInstance) {
           }
         }
       })
-    } else {
-      return prisma.dayHabit.create({
-        data: {
-          day_id: day.id,
-          habit_id: id,
-        }
-      })
     }
 
-
-
+    return prisma.dayHabit.create({
+      data: {
+        day_id: day.id,
+        habit_id: id,
+      }
+    })
   })
 
   app.get('/summary', async () => {
