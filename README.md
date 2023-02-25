@@ -18,8 +18,8 @@ Software para gerenciar e melhorar hábitos diários
 
 ## Design da aplicação WEB
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/101130704/221383910-e97ba548-d5c8-4b80-a96c-7103347f7c57.png)"/>
-  <img src="![image](https://user-images.githubusercontent.com/101130704/221383942-10ca1916-d38a-4de2-9d88-00c8c90ace8b.png)"/>
+  <img src="https://user-images.githubusercontent.com/101130704/221383910-e97ba548-d5c8-4b80-a96c-7103347f7c57.png"/>
+  <img src="https://user-images.githubusercontent.com/101130704/221383942-10ca1916-d38a-4de2-9d88-00c8c90ace8b.png"/>
 </p>
 
 ## 🕹️ Como Utilizar
