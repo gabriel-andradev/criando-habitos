@@ -20,8 +20,8 @@ Software para gerenciar e melhorar hábitos diários
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101130704/221384017-f03ee717-32b1-445f-a884-c4ac2720a6fb.png"/>
   <img src="https://user-images.githubusercontent.com/101130704/221384055-e8653e50-5c8d-4b5e-a5f9-1f92ff09ba5a.png"/>
-  <img src="https://user-images.githubusercontent.com/101130704/221384152-74b19ffd-5010-4b8e-b167-2cd8f45ee43f.png" height="280em" />
-  <img src="https://user-images.githubusercontent.com/101130704/221384199-4b6c74cb-7036-4da6-8d24-3e57807da655.png" height="280em" />
+  <img src="https://user-images.githubusercontent.com/101130704/221384152-74b19ffd-5010-4b8e-b167-2cd8f45ee43f.png" height="250em" />
+  <img src="https://user-images.githubusercontent.com/101130704/221384199-4b6c74cb-7036-4da6-8d24-3e57807da655.png" height="250em" />
 
 </p>
 
