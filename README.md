@@ -1,4 +1,4 @@
-# NLW Setup Trilha Ignite - criando-habitos
+# NLW Setup - Trilha Ignite: criando-habitos
 Software para gerenciar e melhorar hábitos diários
 
 ## ✔️ Linguagens e tecnologias utilizadas
@@ -18,11 +18,10 @@ Software para gerenciar e melhorar hábitos diários
 
 ## Design da aplicação WEB
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/101130704/221384017-f03ee717-32b1-445f-a884-c4ac2720a6fb.png"/>
-  <img src="https://user-images.githubusercontent.com/101130704/221384055-e8653e50-5c8d-4b5e-a5f9-1f92ff09ba5a.png"/>
-  <img src="https://user-images.githubusercontent.com/101130704/221384152-74b19ffd-5010-4b8e-b167-2cd8f45ee43f.png" height="265em" />
-  <img src="https://user-images.githubusercontent.com/101130704/221384199-4b6c74cb-7036-4da6-8d24-3e57807da655.png" height="265em" />
-
+  <img src="https://user-images.githubusercontent.com/101130704/221712389-13e8a958-9ee2-4367-af13-0e8789e6a270.png"/>
+  <img src="https://user-images.githubusercontent.com/101130704/221712653-2fa7ed75-3683-431f-ad7b-ce0797782073.png"/>
+  <img src="https://user-images.githubusercontent.com/101130704/221712892-0100d1c4-ed8a-410f-bdf9-38bae9b6f6aa.png" height="265em" />
+  <img src="https://user-images.githubusercontent.com/101130704/221712968-b208220c-a5c8-460a-97db-e8431809f6b4.png" height="265em" />
 </p>
 
 ## 🕹️ Como Utilizar
